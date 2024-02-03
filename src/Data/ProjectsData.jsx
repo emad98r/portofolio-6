@@ -18,6 +18,7 @@ import p19 from "../Assets/Images/p19.png";
 import p20 from "../Assets/Images/p20.png";
 import p21 from "../Assets/Images/p21.png";
 import p22 from "../assets/Images/p22.png";
+import p23 from "../assets/Images/p23.png";
 
 const projects = [
   {
@@ -136,6 +137,12 @@ const projects = [
     img: p22,
     webLink: "https://password-generator2024.netlify.app/",
     gitLink: "https://github.com/emad98r/Password-Generator",
+  },
+  {
+    id: 23,
+    img: p23,
+    webLink: "https://coffeetime2024.netlify.app/",
+    gitLink: "https://github.com/emad98r/coffeetime",
   },
 ];
 export default projects;
