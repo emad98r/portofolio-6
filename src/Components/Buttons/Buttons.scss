@@ -30,7 +30,6 @@ button {
 
 .download-but {
   background-color: var(--main-color);
-  color: var(--light-color);
   padding: 0;
 
   a {
@@ -40,12 +39,36 @@ button {
     display: flex;
     align-items: center;
     justify-content: center;
-    padding: 1em 1.5em;
-
+    padding: 1rem 0.3rem;
+    &:hover {
+      color: var(--main-color);
+    }
   }
 
   &:hover {
     background-color: var(--black-color);
+  }
+}
+.sub-download-but {
+  background-color: var(--black-color);
+  padding: 0;
+
+  a {
+    text-decoration: none;
+    color: var(--light-color);
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem 0.3rem;
+
+    &:hover {
+      color: var(--main-color);
+    }
+  }
+
+  &:hover {
+    background-color: var(--light-color);
     color: var(--main-color);
   }
 }

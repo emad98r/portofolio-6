@@ -1,21 +1,32 @@
-@import '../../breakPoints.scss';
+@import "../../breakPoints.scss";
 
 .hero {
   width: 100%;
-  background-image: linear-gradient(to right, var(--gray-color)50%, var(--light-color)50%);
+  background-image: linear-gradient(
+    to right,
+    var(--gray-color) 50%,
+    var(--light-color) 50%
+  );
   height: 100vh;
 
   @include breakPoints(mobile) {
-    background-image: linear-gradient(to top, var(--black-color)30%, var(--light-color)70%);
+    background-image: linear-gradient(
+      to top,
+      var(--black-color) 30%,
+      var(--light-color) 70%
+    );
     height: 100%;
-    padding: var(--section-m-b) 0;
+    padding: 0 0 var(--section-m-b);
   }
 
   @include breakPoints(small) {
-    background-image: linear-gradient(to top, var(--black-color)30%, var(--light-color)70%);
+    background-image: linear-gradient(
+      to top,
+      var(--gray-color) 30%,
+      var(--light-color) 70%
+    );
     height: 100%;
-    padding: var(--section-m-b) 0;
-
+    padding: 0 0 var(--section-m-b);
   }
 
   .container {
@@ -40,7 +51,6 @@
       align-items: center;
       justify-content: center;
       flex-direction: column;
-
 
       @include breakPoints(mobile) {
         width: 100%;
@@ -70,17 +80,29 @@
           width: 100%;
         }
       }
-
-
-      button {
-        max-width: 50%;
-
+      .button-wrapper {
+        width: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
         @include breakPoints(mobile) {
-          max-width: 70%;
+          width: 70%;
+          flex-direction: column;
         }
-
         @include breakPoints(small) {
-          max-width: 100%;
+          width: 100%;
+          flex-direction: column;
+        }
+        button {
+          max-width: 50%;
+
+          @include breakPoints(mobile) {
+            max-width: 100%;
+          }
+
+          @include breakPoints(small) {
+            max-width: 100%;
+          }
         }
       }
     }
@@ -104,7 +126,6 @@
       @include breakPoints(small) {
         width: 70%;
         height: max-content;
-
       }
 
       h1 {
@@ -112,8 +133,6 @@
         font-size: 4em;
         text-align: left;
         margin-bottom: 0.5em;
-        text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.467);
-
 
         @include breakPoints(mobile) {
           font-size: 2em;
@@ -122,8 +141,8 @@
         }
 
         @include breakPoints(small) {
-          font-size: 3em;
-
+          font-size: 2.5em;
+          color: var(--black-color);
         }
       }
 
@@ -132,6 +151,7 @@
         line-height: 2;
         margin-bottom: 1em;
         font-size: 1.2em;
+        text-align: justify;
 
         @include breakPoints(mobile) {
           width: 100%;

@@ -1,4 +1,4 @@
-@import '../../breakPoints.scss';
+@import "../../breakPoints.scss";
 
 .edu-trn {
   width: 100%;
@@ -18,11 +18,10 @@
       gap: 2em;
       width: 100%;
 
-
       .edc-info,
       .trn-info {
         display: grid;
-        grid-template-columns: repeat(auto-fit, minmax(30em, 1fr));
+        grid-template-columns: repeat(auto-fit, minmax(20em, 1fr));
         gap: 2em;
 
         @include breakPoints(mobile) {
@@ -107,7 +106,6 @@
         }
       }
     }
-
   }
 
   hr {

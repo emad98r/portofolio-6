@@ -1,58 +1,76 @@
-import SectionTitle from '../../Components/SectionTitles/SectionTitle';
-import './Services.scss';
+import SectionTitle from "../../Components/SectionTitles/SectionTitle";
+import "./Services.scss";
 
-import responsive from '../../Assets/Images/RESPONSIVE DESIGN.jpg'
-import design from '../../Assets/Images/WEB DESIGN.jpg'
-import code from '../../Assets/Images/CLEAN CODE.jpg'
-import support from '../../Assets/Images/SUPPORT.jpg'
-
+import RESPONSIVE from "../../assets/Icons/web-template.png";
+import DESIGN from "../../assets/Icons/graphics-design.png";
+import CODE from "../../assets/Icons/coding.png";
+import SUPPORT from "../../assets/Icons/SUPPORT.png";
 
 const Services = () => {
   return (
-    <div id='services' className='services'>
+    <div id="services" className="services">
       <div className="container">
-        <SectionTitle title1='what i' title2='provide' />
+        <SectionTitle title1="what i" title2="provide" />
         <div className="service-wrapper">
           <div className="service-card">
             <div className="img-wrapper">
-              <img src={responsive} alt="" />
+              <img src={RESPONSIVE} alt="" />
             </div>
             <div className="info">
-              <h3>RESPONSIVE website</h3>
-              <p>Responsive web design is about creating web pages that look good on all devices! A responsive web design will automatically adjust for different screen sizes and viewpoints.</p>
+              <h3>Responsive website</h3>
+              <p>
+                Designing a webpage to be fully responsive, ensuring it looks
+                and functions perfectly on any device whether it's a desktop,
+                tablet, or smartphone. A responsive design will also improve
+                your search engine rankings.
+              </p>
             </div>
           </div>
           <div className="service-card">
             <div className="img-wrapper">
-              <img src={design} alt="" />
+              <img src={DESIGN} alt="" />
             </div>
             <div className="info">
-              <h3>WEB DESIGN</h3>
-              <p>Get Your Beautiful Website Designed By Me At Very Reasonable Price and in the least amount of time.</p>
+              <h3>Web & Graphic Design </h3>
+              <p>
+                Create exceptional designs for templates, logos, posters, and
+                brochures. By blending innovative concepts with striking
+                visuals, I ensure your brand stands out.
+              </p>
             </div>
           </div>
           <div className="service-card">
             <div className="img-wrapper">
-              <img src={code} alt="" />
+              <img src={CODE} alt="" />
             </div>
             <div className="info">
-              <h3>CLEAN CODE</h3>
-              <p>Coding a clean code without errors or problems that affect the functioning of the web page or the looks of the web page</p>
+              <h3>Code Quality</h3>
+              <p>
+                Developing pristine code devoid of errors or discrepancies that
+                may compromise the functionality or aesthetics of the webpage is
+                paramount.
+              </p>
             </div>
           </div>
           <div className="service-card">
             <div className="img-wrapper">
-              <img src={support} alt="" />
+              <img src={SUPPORT} alt="" />
             </div>
             <div className="info">
-              <h3>GREAT SUPPORT</h3>
-              <p>Getting support if there is any problem that shows in the webpage I coded.</p>
+              <h3>Exceptional Support</h3>
+              <p>
+                Seeking out assistance is crucial should any issues manifest on
+                the webpage I've meticulously coded. It ensures that any
+                unexpected glitches or malfunctions are swiftly addressed and
+                resolved, maintaining the integrity and smooth functionality of
+                the site.
+              </p>
             </div>
           </div>
         </div>
       </div>
     </div>
-  )
-}
+  );
+};
 
-export default Services
+export default Services;

@@ -1,17 +1,14 @@
-@import './breakPoints.scss';
-
+@import "./breakPoints.scss";
 
 :root {
-
   // colors ----------------------
-  --main-color: #00ADB5;
+  --main-color: #00adb5;
   --black-color: #222831;
-  --gray-color: #393E46;
-  --light-color: #EEEEEE;
+  --gray-color: #393e46;
+  --light-color: #eeeeee;
 
   // fonts ---------------------------------
-  --main-font: 'Roboto Condensed', sans-serif;
-
+  --main-font: "Roboto Condensed", sans-serif;
 
   // border-radius ----------------------
   --border-r: 15px;
@@ -19,8 +16,6 @@
   //section-margin----------------------
   --section-m-b: 3em;
 }
-
-
 
 * {
   margin: 0;

@@ -22,12 +22,12 @@ const AboutMe = () => {
                 Nationality : <span>Yemeni</span>
               </p>
               <p>
-                Current Address : <span>Saudi Arabia</span>
+                Current Address : <span>Sana'a / Yemen</span>
               </p>
             </div>
             <div className="info">
               <p>
-                Phone : <span>+966 536855163</span>
+                Phone : <span>+967 782881372</span>
               </p>
               <p>
                 email : <span>emadrashadm@gmail.com</span>
@@ -46,7 +46,7 @@ const AboutMe = () => {
         <div className="years-of-exp">
           <div className="data">
             <h2>
-              5 <span>+</span>
+              6 <span>+</span>
             </h2>
             <p>YEARS OF EXPERIENCE</p>
           </div>

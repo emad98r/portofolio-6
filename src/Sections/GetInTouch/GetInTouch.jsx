@@ -4,12 +4,12 @@ import {
   FaMapMarker,
   FaPhoneAlt,
   FaEnvelope,
-  FaFacebookF,
   FaGithub,
-  FaInstagram,
   FaLinkedinIn,
   FaLocationArrow,
+  FaWhatsapp,
 } from "react-icons/fa";
+import { SiGmail } from "react-icons/si";
 
 const GetInTouch = () => {
   return (
@@ -17,7 +17,7 @@ const GetInTouch = () => {
       <SectionTitle title1="get in" title2="touch" />
       <div className="container">
         <div className="info">
-          <h3>Don't be shy !</h3>
+          <h3>Get In Touch !</h3>
           <p>
             Feel free to get in touch with me. I am always open to discussing
             new projects, creative ideas or opportunities to be part of your
@@ -28,7 +28,7 @@ const GetInTouch = () => {
               <FaMapMarker />
               <div className="data">
                 <h5>current address</h5>
-                <p>Saudi Arabia</p>
+                <p>Yemen</p>
               </div>
             </section>
             <section>
@@ -41,26 +41,21 @@ const GetInTouch = () => {
             <section>
               <FaPhoneAlt />
               <div className="data">
-                <h5>CALL</h5>
-                <p>+966 536855163</p>
+                <h5>PHONE</h5>
+                <p>+967 782881372</p>
               </div>
             </section>
           </div>
           <div className="s-m">
-            <a
-              href="https://www.facebook.com/profile.php?id=100005185022147&sk=likes"
-              target="_bolck"
-            >
-              <FaFacebookF />
+            <a href="https://wa.me/967782881372" target="_bolck">
+              <FaWhatsapp />
+            </a>
+
+            <a href="mailto:emadrashadm@gmail.com" target="_bolck">
+              <SiGmail />
             </a>
             <a
-              href="https://www.instagram.com/3mad_7/?r=nametag"
-              target="_bolck"
-            >
-              <FaInstagram />
-            </a>
-            <a
-              href="https://www.linkedin.com/in/emad-rashad-9164041b6/"
+              href="https://www.linkedin.com/in/emad-rashad-alareqih/"
               target="_bolck"
             >
               <FaLinkedinIn />
