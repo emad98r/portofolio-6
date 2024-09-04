@@ -20,6 +20,7 @@ import p21 from "../Assets/Images/p21.png";
 import p22 from "../assets/Images/p22.png";
 import p23 from "../assets/Images/p23.png";
 import p24 from "../assets/Images/p24.png";
+import p25 from "../assets/Images/p15.jpg";
 
 const projects = [
   {
@@ -150,6 +151,12 @@ const projects = [
     img: p24,
     webLink: "https://alshaibaniroyal.netlify.app/",
     gitLink: "https://github.com/emad98r/alshaibaniroyal2024",
+  },
+  {
+    id: 25,
+    img: p25,
+    webLink: "https://mopic-taiz.netlify.app/",
+    gitLink: "https://github.com/emad98r/mopic-taiz",
   },
 ];
 export default projects;
