@@ -20,7 +20,7 @@ import p21 from "../Assets/Images/p21.png";
 import p22 from "../assets/Images/p22.png";
 import p23 from "../assets/Images/p23.png";
 import p24 from "../assets/Images/p24.png";
-import p25 from "../assets/Images/p15.jpg";
+import p25 from "../assets/Images/p25.png";
 
 const projects = [
   {
