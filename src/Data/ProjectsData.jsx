@@ -21,6 +21,7 @@ import p22 from "../assets/Images/p22.png";
 import p23 from "../assets/Images/p23.png";
 import p24 from "../assets/Images/p24.png";
 import p25 from "../assets/Images/p25.png";
+import p26 from "../assets/Images/p26.png";
 
 const projects = [
   {
@@ -157,6 +158,12 @@ const projects = [
     img: p25,
     webLink: "https://mopic-taiz.netlify.app/",
     gitLink: "https://github.com/emad98r/mopic-taiz",
+  },
+  {
+    id: 26,
+    img: p26,
+    webLink: "https://codeupagency.netlify.app/",
+    gitLink: "https://github.com/emad98r/CodeUp",
   },
 ];
 export default projects;
