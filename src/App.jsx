@@ -7,11 +7,13 @@ import PortfolioPage from "./Pages/PortfolioPage/PortfolioPage";
 import ContactPage from "./Pages/ContactPage/ContactPage";
 import ServicesPage from "./Pages/ServicesPage/ServicesPage";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
+import ScrollToTop from "./Components/ScrollToTop";
 
 const App = () => {
   return (
     <>
       <Router>
+        <ScrollToTop />
         <Header />
         <Routes>
           <Route path="/" element={<Home />} />

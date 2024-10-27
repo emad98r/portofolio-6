@@ -19,7 +19,7 @@ import p20 from "../Assets/Images/p20.png";
 import p21 from "../Assets/Images/p21.png";
 import p22 from "../assets/Images/p22.png";
 import p23 from "../assets/Images/p23.png";
-// import p24 from "../assets/Images/p24.png";
+import p24 from "../assets/Images/p24.png";
 // import p25 from "../assets/Images/p25.png";
 import p26 from "../assets/Images/p26.png";
 import p27 from "../assets/Images/p27.png";
@@ -148,12 +148,12 @@ const projects = [
     webLink: "https://coffeetime2024.netlify.app/",
     gitLink: "https://github.com/emad98r/coffeetime",
   },
-  // {
-  //   id: 24,
-  //   img: p24,
-  //   webLink: "https://alshaibaniroyal.netlify.app/",
-  //   gitLink: "https://github.com/emad98r/alshaibaniroyal2024",
-  // },
+  {
+    id: 24,
+    img: p24,
+    webLink: "https://alwan-al-yemen.netlify.app/",
+    gitLink: "https://github.com/emad98r/Alwan-Al-Yemen",
+  },
   // {
   //   id: 25,
   //   img: p25,
