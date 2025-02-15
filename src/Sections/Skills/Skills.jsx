@@ -6,13 +6,13 @@ import css from "../../Assets/Images/css.png";
 import js from "../../Assets/Images/js.png";
 import sass from "../../Assets/Images/scss.png";
 import react from "../../Assets/Images/react.png";
-import Jquery from "../../Assets/Images/j query.png";
 import github from "../../Assets/Images/github.png";
 import bootstrap from "../../Assets/Images/bootstrb.png";
 import photoshop from "../../Assets/Images/photoshop.png";
 import illustrator from "../../Assets/Images/Illustrator.png";
 import adobeXd from "../../Assets/Images/adobe xd.png";
 import wordpress from "../../assets/Images/wordpress.png";
+import Figma from "../../assets/Images/Figma.png";
 
 const Skills = () => {
   return (
@@ -148,6 +148,18 @@ const Skills = () => {
               <h4>WordPress</h4>
               <div className="level" style={{ width: "60%" }}>
                 60%
+              </div>
+            </div>
+          </div>
+          {/* ----------------------------------------- */}
+          <div className="skill">
+            <div className="skill-logo">
+              <img src={Figma} alt="" />
+            </div>
+            <div className="name-level">
+              <h4>Figma</h4>
+              <div className="level" style={{ width: "70%" }}>
+                70%
               </div>
             </div>
           </div>

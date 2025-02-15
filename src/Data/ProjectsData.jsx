@@ -23,6 +23,7 @@ import p24 from "../assets/Images/p24.png";
 // import p25 from "../assets/Images/p25.png";
 import p26 from "../assets/Images/p26.png";
 import p27 from "../assets/Images/p27.png";
+import p28 from "../assets/Images/p28.png";
 
 const projects = [
   {
@@ -171,6 +172,12 @@ const projects = [
     img: p27,
     webLink: "https://alanaqah.netlify.app/",
     gitLink: "https://github.com/emad98r/alanaqah",
+  },
+  {
+    id: 28,
+    img: p28,
+    webLink: "https://hotburgersa.netlify.app/",
+    gitLink: "https://github.com/emad98r/Hot-Burger",
   },
 ];
 export default projects;
