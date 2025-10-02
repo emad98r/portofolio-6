@@ -28,7 +28,7 @@ const GetInTouch = () => {
               <FaMapMarker />
               <div className="data">
                 <h5>current address</h5>
-                <p>Yemen</p>
+                <p>Malaysia</p>
               </div>
             </section>
             <section>
@@ -42,12 +42,12 @@ const GetInTouch = () => {
               <FaPhoneAlt />
               <div className="data">
                 <h5>PHONE</h5>
-                <p>+967 782881372</p>
+                <p>+60 1164359792</p>
               </div>
             </section>
           </div>
           <div className="s-m">
-            <a href="https://wa.me/967782881372" target="_bolck">
+            <a href="https://wa.me/601164359792" target="_bolck">
               <FaWhatsapp />
             </a>
 

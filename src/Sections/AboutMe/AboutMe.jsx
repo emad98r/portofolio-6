@@ -11,23 +11,16 @@ const AboutMe = () => {
           <div className="all-infos">
             <div className="info">
               <p>
-                first name : <span>Emad</span>
+                name : <span>Emad Al-areqih</span>
               </p>
               <p>
-                last name : <span>Al-areqih</span>
-              </p>
-            </div>
-            <div className="info">
-              <p>
-                Nationality : <span>Yemeni</span>
-              </p>
-              <p>
-                Current Address : <span>Sana'a / Yemen</span>
+                Current Address : <span>Malaysia</span>
               </p>
             </div>
+            <div className="info"></div>
             <div className="info">
               <p>
-                Phone : <span>+967 782881372</span>
+                Phone : <span>+60 1164359792</span>
               </p>
               <p>
                 email : <span>emadrashadm@gmail.com</span>
